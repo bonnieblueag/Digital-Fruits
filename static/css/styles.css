@@ -1,0 +1,10 @@
+body {
+  background-color: green;
+}
+.intro {
+  text-align: center;
+  color: white;
+}
+.intro h1 {
+  font-weight: bold;
+}
