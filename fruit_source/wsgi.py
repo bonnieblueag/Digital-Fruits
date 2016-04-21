@@ -1,5 +1,5 @@
 """
-WSGI config for rare_fruits project.
+WSGI config for fruit_source project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -12,7 +12,7 @@ import os
 from django.core.wsgi import get_wsgi_application
 from whitenoise.django import DjangoWhiteNoise
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "rare_fruits.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "fruit_source.settings")
 
 application = get_wsgi_application()
 application = DjangoWhiteNoise(application)

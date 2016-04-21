@@ -1,4 +1,4 @@
-"""rare_fruits URL Configuration
+"""fruit_source URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.9/topics/http/urls/
@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from rare_fruits.views import home
+from fruit_source.views import home
 
 urlpatterns = [
     url(r'^$', home),
